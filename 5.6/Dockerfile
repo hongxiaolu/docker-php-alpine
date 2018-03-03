@@ -1,12 +1,12 @@
 FROM alpine:3.5
 
-LABEL maintainer="developers@graze.com" \
+LABEL maintainer="hxl" \
     license="MIT" \
     org.label-schema.schema-version="1.0" \
-    org.label-schema.vendor="graze" \
+    org.label-schema.vendor="" \
     org.label-schema.name="php-alpine" \
     org.label-schema.description="small php image based on alpine" \
-    org.label-schema.vcs-url="https://github.com/graze/docker-php-alpine"
+    org.label-schema.vcs-url="https://github.com/hongxiaolu/docker-php-alpine"
 
 RUN apk add --no-cache \
     ca-certificates \

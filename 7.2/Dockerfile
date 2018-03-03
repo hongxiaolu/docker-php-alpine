@@ -1,12 +1,12 @@
 FROM alpine:3.7
 
-LABEL maintainer="developers@graze.com" \
+LABEL maintainer="hxl" \
     license="MIT" \
     org.label-schema.schema-version="1.0" \
-    org.label-schema.vendor="graze" \
+    org.label-schema.vendor="hxl" \
     org.label-schema.name="php-alpine" \
     org.label-schema.description="small php image based on alpine" \
-    org.label-schema.vcs-url="https://github.com/graze/docker-php-alpine"
+    org.label-schema.vcs-url="https://github.com/hongxiaolu/docker-php-alpine"
 
 # setup remote php packagages
 ADD https://php.codecasts.rocks/php-alpine.rsa.pub /etc/apk/keys/php-alpine.rsa.pub
